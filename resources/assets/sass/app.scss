@@ -1,26 +1,8 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700");
 
 // Variables
 @import "variables";
 
 // Bulma
-@import "node_modules/bulma/bulma";
-
-.home{
-    .image{
-        height: 100vh;
-        position: absolute;
-        right: 0;
-        img {
-            height: 100%;
-            width: auto;
-        }
-    }
-    // .hero-body{
-    //     background-image: url(/images/DSC0018.jpg);
-    //     background-position: 100%;
-    //     background-size: cover;
-    //     background-repeat: no-repeat;
-    // }
-}
+// @import "node_modules/bulma/bulma";
