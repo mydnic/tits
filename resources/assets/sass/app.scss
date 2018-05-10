@@ -5,4 +5,16 @@
 @import "variables";
 
 // Bulma
-// @import "node_modules/bulma/bulma";
+@import "node_modules/bulma/bulma";
+
+.hero-body {
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+        background: -webkit-linear-gradient(0deg, #e93f3a, #fff037);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 100px !important;
+    }
+}
